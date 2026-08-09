@@ -28,7 +28,7 @@ app.use(cookieParser()); // parse cookies attached to incoming requests (needed 
 // (e.g. localhost:5000).
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://zaftube.vercel.app/", // exact frontend origin (not "*")
+    origin: process.env.CLIENT_URL || "https://zaftube.vercel.app", // exact frontend origin (not "*")
     credentials: true, // allows the browser to send/receive cookies
   })
 );
