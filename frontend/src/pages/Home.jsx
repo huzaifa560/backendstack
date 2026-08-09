@@ -44,7 +44,7 @@ const { posts, postsLoading } = useAuth();
               
                   <img  
                    className="feed-image"
-                    src={`http://localhost:5000/uploads/${post.image}`}
+                    src={`https://jfewggk5sn5hjdsng6q4zm6u.sx.ameerhmzx.com/uploads/${post.image}`}
                     alt={post.title} 
                     
                   />
