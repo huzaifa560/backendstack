@@ -32,7 +32,7 @@ export const AuthProvider = ({ children }) => {
       try {
         setPostsLoading(true);
 
-        const response = await fetch("http://localhost:5000/api/posts");
+        const response = await fetch("https://jfewggk5sn5hjdsng6q4zm6u.sx.ameerhmzx.com/api/posts");
 
         if (!response.ok) {
           throw new Error("Failed to fetch posts");
