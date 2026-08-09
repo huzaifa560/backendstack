@@ -55,7 +55,7 @@ const Upload = () => {
       formData.append("image", image);
 
       const response = await fetch(
-        "http://localhost:5000/api/posts",
+        "https://jfewggk5sn5hjdsng6q4zm6u.sx.ameerhmzx.com/api/posts",
         {
           method: "POST",
           credentials: "include",
