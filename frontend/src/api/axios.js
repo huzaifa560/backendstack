@@ -5,7 +5,7 @@ import axios from "axios";
 // the HTTP-only JWT cookie with every request, and to store any cookie
 // that comes back from the server.
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api",
+  baseURL: import.meta.env.VITE_API_URL || "https://jfewggk5sn5hjdsng6q4zm6u.sx.ameerhmzx.com/api",
   withCredentials: true,
 });
 
